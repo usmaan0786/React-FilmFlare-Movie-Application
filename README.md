@@ -31,6 +31,9 @@
   
 👀 Take a sneak peek and explore the cinematic world with our user-friendly platform! 🌐✨
 
+## UI/Ux 
+
+
 ## Navbar Component Overview:
 
 - The project's navigation begins with a minimalist Navbar featuring the developer's name and profile picture.
@@ -154,7 +157,7 @@ Styling:
    * The tmdbApi is created with createApi, specifying a reducerPath and a baseQuery that includes the base URL for the TMDB API.
    * Various endpoints are defined to fetch information about movies, genres, and actors, offering flexibility in querying different aspects of the TMDB database.
 
-## UI/Ux 
+
 
 
 
