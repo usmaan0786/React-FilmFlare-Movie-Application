@@ -76,6 +76,29 @@ The project is a React-based web application that leverages The Movie Database (
 
 
 
+## Actor Page Overview:
+
+- The Actor component is a React-based page designed to present detailed information about a specific actor, encompassing both personal details and the movies they have contributed to.
+
+- Key Features:
+
+   * Utilizes the useParams hook from React Router to extract the actor's ID parameter from the URL, facilitating dynamic content rendering.
+   * Performs API Queries:
+      * The useGetActorDetailsQuery hook from the TMDB API fetches comprehensive details about the actor based on the extracted ID.
+      * The useGetMoviesByActorIdQuery hook is employed to retrieve movies associated with the actor, incorporating the actor's ID and a designated page number.
+   * The component meticulously renders various details about the actor, including their name, birth year, and a comprehensive biography.
+
+- Profile Information:
+   * Displays an image of the actor, enhancing the visual appeal of the actor's profile information.
+Movie Details:
+
+- For each movie the actor has participated in, the component showcases an image, the movie title, and a star rating based on the movie's vote average.
+Interactive Navigation:
+
+- Each movie entry is a clickable link, providing users with a seamless transition to the detailed page of the respective movie.
+Styling:
+
+- The layout is crafted with a visually appealing design, ensuring an engaging and immersive exploration experience for users.
 
 
 
