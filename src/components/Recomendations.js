@@ -18,7 +18,7 @@ const Recomendations = (id) => {
   }
   return (
     <div className="flex flex-col items-center justify-center mt-[2rem]">
-      <h1 className="text-[2.5rem] font-bold">Discover More</h1>
+      <h1 className="text-[2.5rem] font-bold">Top Recomendations</h1>
 
       <div className="flex flex-wrap gap-y-3 gap-x-5 items-center mt-3 justify-center">
         {data.results.map((movie, index) => (

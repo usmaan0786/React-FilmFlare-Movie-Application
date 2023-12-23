@@ -9,7 +9,6 @@ const Search = () => {
   const dispatch = useDispatch();
   const handleKeyPress = (event) => {
     if (event.key == "Enter") {
-      console.log(query);
       dispatch(searchMovie(query));
     }
   };
@@ -17,7 +16,7 @@ const Search = () => {
   //   const {searchMovie} = useSelector( (state) => state.)
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center absolute top-4 ml-[37rem]">
       <input
         type="text"
         className="border-[.1rem] w-[25rem] p-2 rounded-md focus:outline-none focus:border-[#161616] text-[#161616] text-[.9rem]"
