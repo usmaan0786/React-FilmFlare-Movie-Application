@@ -4,7 +4,7 @@
 
 🎬 Exciting News! 🚀 Just launched a React-based web application leveraging the power of The Movie Database (TMDB) API! 🍿
 
-###🌟 Features:
+### 🌟 Features:
 
 - Browse popular, top-rated, and upcoming movies effortlessly.
 - Dive into detailed movie information, including cast members, genres, and recommendations.
@@ -12,13 +12,13 @@
 - Watch movie trailers, visit official websites, and access IMDb links with a click.
 - Seamless search functionality for specific titles.
 
-###🚀 Tech Stack Highlights:
+### 🚀 Tech Stack Highlights:
 
 - Efficient use of React, React Router, and props for state management with Redux.
 - Leverage the power of hooks like useState, useEffect, and useParams for a dynamic user experience.
 - Stylishly crafted using Tailwind CSS for an aesthetically pleasing and responsive interface.
 - The Movie Database (TMDB) API integration for real-time and comprehensive movie data.
-###💡 Why this project shines:
+### 💡 Why this project shines:
 
 - Redux ensures efficient state management, fostering seamless interaction between components.
 - React Router enables smooth navigation, enhancing user experience across different pages.
