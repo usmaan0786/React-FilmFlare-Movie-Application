@@ -64,10 +64,10 @@ The project is a React-based web application that leverages The Movie Database (
 - The Recommendations component complements the Movie Information page by displaying top movie recommendations based on the selected movie ID.
 
 - Key Features
- * Utilizes the useGetMovieRecommendationsQuery hook from the TMDB API to fetch movie recommendations for the provided movie ID.
- * Presents a visually appealing layout with images, titles, and star ratings for each recommended movie.
- * Offers clickable links for users to explore more details about each recommended movie.
- * The component seamlessly integrates with the TMDB API to fetch relevant recommendations, enhancing the user's exploration of related content.
+  * Utilizes the useGetMovieRecommendationsQuery hook from the TMDB API to fetch movie recommendations for the provided movie ID.
+  * Presents a visually appealing layout with images, titles, and star ratings for each recommended movie.
+  * Offers clickable links for users to explore more details about each recommended movie.
+  * The component seamlessly integrates with the TMDB API to fetch relevant recommendations, enhancing the user's exploration of related content.
 
 - The layout is designed to be visually engaging, providing users with a quick overview of recommended movies along with essential details such as titles and star ratings.
 
