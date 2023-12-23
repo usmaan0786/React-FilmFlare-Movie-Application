@@ -35,6 +35,29 @@ The project is a React-based web application that leverages The Movie Database (
 - Each movie component within the list includes a poster, name, and rating, offering users key information at a glance.
 
 
+## ovie Information Page Overview:
+
+- The Movie Information page is accessed by clicking on any movie card, providing users with in-depth details about the selected movie.
+
+- Components Displayed:
+
+  * Movie Poster
+  * Movie Title
+  * Overview
+  * Rating
+  * IMDb Rating
+  * Language
+  * Top Cast Members
+  * Movie Official Website
+  * IMDb Official Website
+  * Trailer Link
+- The useGetMovieByIDQuery hook from the TMDB API is employed to fetch comprehensive details about the movie using the provided id parameter.
+
+- The page delivers relevant and comprehensive information about the selected movie, including its key attributes and top cast members.
+
+- Additionally, the page provides relevant movie recommendations, enhancing the user experience by suggesting related content.
+
+- Users have the option to explore the official website of the movie, visit the IMDb page, and watch the trailer directly from the Movie Information page.
 
 
 
