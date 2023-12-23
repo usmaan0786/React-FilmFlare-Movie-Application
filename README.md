@@ -35,7 +35,7 @@ The project is a React-based web application that leverages The Movie Database (
 - Each movie component within the list includes a poster, name, and rating, offering users key information at a glance.
 
 
-## ovie Information Page Overview:
+## Movie Information Page Overview:
 
 - The Movie Information page is accessed by clicking on any movie card, providing users with in-depth details about the selected movie.
 
@@ -58,6 +58,24 @@ The project is a React-based web application that leverages The Movie Database (
 - Additionally, the page provides relevant movie recommendations, enhancing the user experience by suggesting related content.
 
 - Users have the option to explore the official website of the movie, visit the IMDb page, and watch the trailer directly from the Movie Information page.
+
+## Recommendations Component Overview:
+
+- The Recommendations component complements the Movie Information page by displaying top movie recommendations based on the selected movie ID.
+
+- Key Features
+* Utilizes the useGetMovieRecommendationsQuery hook from the TMDB API to fetch movie recommendations for the provided movie ID.
+* Presents a visually appealing layout with images, titles, and star ratings for each recommended movie.
+* Offers clickable links for users to explore more details about each recommended movie.
+* The component seamlessly integrates with the TMDB API to fetch relevant recommendations, enhancing the user's exploration of related content.
+
+- The layout is designed to be visually engaging, providing users with a quick overview of recommended movies along with essential details such as titles and star ratings.
+
+- Each movie recommendation is presented as a clickable link, enabling users to easily navigate to the details page for further exploration.
+
+
+
+
 
 
 
