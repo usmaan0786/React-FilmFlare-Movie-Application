@@ -4,7 +4,7 @@
 
 The project is a React-based web application that leverages The Movie Database (TMDB) API to provide users with a comprehensive platform for exploring movies, actors, and genres. The application offers features such as browsing popular movies, top-rated movies, upcoming releases, and searching for specific titles. Users can also discover detailed information about movies, including cast members, genres, and recommendations. The platform incorporates dynamic pages for actors, showcasing their biographies and a selection of movies they have participated in. Additionally, users can explore movie trailers, websites, and IMDb links. The project utilizes Redux for state management, enabling seamless interaction between different components. Tailwind CSS ensures an aesthetically pleasing and responsive user interface, while React Router facilitates smooth navigation across the application. The result is an engaging and user-friendly movie exploration platform with detailed actor profiles and a visually appealing interface.
 
-## Navbar:
+## Navbar Component Overview:
 
 - The project's navigation begins with a minimalist Navbar featuring the developer's name and profile picture.
 - Search option dynamically appears exclusively on the main or movies page, enhancing user interaction. The Search functionality utilizes an event handler that processes user queries and displays corresponding results. This is facilitated by a Redux setup, including the implementation of a searchMovie action creator, a corresponding reducer, and the integration with the Redux store.
@@ -12,7 +12,7 @@ The project is a React-based web application that leverages The Movie Database (
 - The Sidebar component, on the other hand, employs custom hooks to seamlessly handle genre and category attributes. Through user interactions with the sidebar, the application dynamically showcases results based on the selected actions. 
 - This responsive design approach enhances the user experience, allowing for convenient, streamlined and user-friendly interface.
 
-## Sidebar
+## Sidebar Component Overview:
 - Custom hooks are employed to invoke actions related to genre and category attributes.
 - As a user interacts with the Sidebar, the application dynamically presents results based on the selected actions, providing a responsive and tailored browsing experience.
 
@@ -64,10 +64,10 @@ The project is a React-based web application that leverages The Movie Database (
 - The Recommendations component complements the Movie Information page by displaying top movie recommendations based on the selected movie ID.
 
 - Key Features
-* Utilizes the useGetMovieRecommendationsQuery hook from the TMDB API to fetch movie recommendations for the provided movie ID.
-* Presents a visually appealing layout with images, titles, and star ratings for each recommended movie.
-* Offers clickable links for users to explore more details about each recommended movie.
-* The component seamlessly integrates with the TMDB API to fetch relevant recommendations, enhancing the user's exploration of related content.
+ * Utilizes the useGetMovieRecommendationsQuery hook from the TMDB API to fetch movie recommendations for the provided movie ID.
+ * Presents a visually appealing layout with images, titles, and star ratings for each recommended movie.
+ * Offers clickable links for users to explore more details about each recommended movie.
+ * The component seamlessly integrates with the TMDB API to fetch relevant recommendations, enhancing the user's exploration of related content.
 
 - The layout is designed to be visually engaging, providing users with a quick overview of recommended movies along with essential details such as titles and star ratings.
 
