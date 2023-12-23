@@ -32,6 +32,13 @@
 👀 Take a sneak peek and explore the cinematic world with our user-friendly platform! 🌐✨
 
 ## UI/Ux 
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/0d461796-f567-46f0-9934-f89729ec5b4f)
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/d74ee5ce-9d6d-4aec-b770-4955b4218afe)
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/5c5d0085-52d1-46c1-9734-38f4ba59ee12)
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/bbb0b6ef-033a-4bc9-9903-0235da8fbe6e)
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/f0bb3397-c494-4d5a-a806-061d55c6c0a4)
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/7e1ec3b8-440c-4d2f-b9a1-c11ade5def04)
+![image](https://github.com/usmaan0786/React-FilmFlare-Movie-Application/assets/72275107/6a8a5a5f-97c9-4971-b8be-9b0185845295)
 
 
 ## Navbar Component Overview:
