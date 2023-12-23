@@ -2,7 +2,19 @@
 
 ## Abstract:
 
-The project is a React-based web application that leverages The Movie Database (TMDB) API to provide users with a comprehensive platform for exploring movies, actors, and genres. The application offers features such as browsing popular movies, top-rated movies, upcoming releases, and searching for specific titles. Users can also discover detailed information about movies, including cast members, genres, and recommendations. The platform incorporates dynamic pages for actors, showcasing their biographies and a selection of movies they have participated in. Additionally, users can explore movie trailers, websites, and IMDb links. The project utilizes Redux for state management, enabling seamless interaction between different components. Tailwind CSS ensures an aesthetically pleasing and responsive user interface, while React Router facilitates smooth navigation across the application. The result is an engaging and user-friendly movie exploration platform with detailed actor profiles and a visually appealing interface.
+The project is a React-based web application utilizing The Movie Database (TMDB) API.
+project deploys Efficient use of React, React Router, and props for state management with Redux.
+Hooks such as useState, useEffect, and useParams are employed in the project.
+Styling is accomplished using Tailwind CSS. The application utilizes The Movie Database (TMDB) API.
+
+- Features include browsing popular, top-rated, and upcoming movies, along with a search functionality for specific titles.
+- Detailed movie information is available, including cast members, genres, and recommendations.
+- Dynamic actor pages showcase biographies and a selection of movies they've been part of.
+- Users can explore movie trailers, official websites, and IMDb links.
+- Redux is employed for efficient state management, facilitating seamless interaction between components.
+- Tailwind CSS ensures an aesthetically pleasing and responsive user interface.
+- React Router enables smooth navigation across different pages within the application.
+- The outcome is an engaging and user-friendly movie exploration platform with detailed actor profiles and a visually appealing interface.
 
 ## Navbar Component Overview:
 
