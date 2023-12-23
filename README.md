@@ -6,11 +6,11 @@ The project is a React-based web application that leverages The Movie Database (
 
 ## Navbar:
 
-1- The project's navigation begins with a minimalist Navbar featuring the developer's name and profile picture.
-2- Search option dynamically appears exclusively on the main or movies page, enhancing user interaction. The Search functionality utilizes an event handler that processes user queries and displays corresponding results. This is facilitated by a Redux setup, including the implementation of a searchMovie action creator, a corresponding reducer, and the integration with the Redux store.
+- The project's navigation begins with a minimalist Navbar featuring the developer's name and profile picture.
+- Search option dynamically appears exclusively on the main or movies page, enhancing user interaction. The Search functionality utilizes an event handler that processes user queries and displays corresponding results. This is facilitated by a Redux setup, including the implementation of a searchMovie action creator, a corresponding reducer, and the integration with the Redux store.
 
-3- The Sidebar component, on the other hand, employs custom hooks to seamlessly handle genre and category attributes. Through user interactions with the sidebar, the application dynamically showcases results based on the selected actions. 
-4- This responsive design approach enhances the user experience, allowing for convenient, streamlined and user-friendly interface.
+- The Sidebar component, on the other hand, employs custom hooks to seamlessly handle genre and category attributes. Through user interactions with the sidebar, the application dynamically showcases results based on the selected actions. 
+- This responsive design approach enhances the user experience, allowing for convenient, streamlined and user-friendly interface.
 
 
 
