@@ -16,7 +16,7 @@ The project is a React-based web application that leverages The Movie Database (
 - Custom hooks are employed to invoke actions related to genre and category attributes.
 - As a user interacts with the Sidebar, the application dynamically presents results based on the selected actions, providing a responsive and tailored browsing experience.
 
-##Main Movies Component Overview:
+## Main Movies Component Overview:
 
 - The code defines a React component named "Movies" responsible for displaying a list of movies based on the selected genre or category.
 
