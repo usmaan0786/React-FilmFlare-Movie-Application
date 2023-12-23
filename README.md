@@ -12,6 +12,27 @@ The project is a React-based web application that leverages The Movie Database (
 - The Sidebar component, on the other hand, employs custom hooks to seamlessly handle genre and category attributes. Through user interactions with the sidebar, the application dynamically showcases results based on the selected actions. 
 - This responsive design approach enhances the user experience, allowing for convenient, streamlined and user-friendly interface.
 
+## Sidebar
+- Custom hooks are employed to invoke actions related to genre and category attributes.
+- As a user interacts with the Sidebar, the application dynamically presents results based on the selected actions, providing a responsive and tailored browsing experience.
+
+##Main Movies Component Overview:
+
+- The code defines a React component named "Movies" responsible for displaying a list of movies based on the selected genre or category.
+
+- It utilizes the useState hook to manage the current page (Page) of movie results, allowing for efficient pagination.
+
+- The useSelector hook retrieves the genreOrCategoryName and searchQuery from the Redux store's currentGenreOrCategory slice, ensuring accurate data retrieval.
+
+- The useGetMoviesQuery hook from the TMDB API fetches movies based on the selected genre or category, the current page, and any specified search query.
+
+- If data is still being fetched (isFetching is true), a loading message is displayed, providing a seamless user experience.
+
+- Error Handling: In the event of an error during the API call, an error message is displayed, enhancing user awareness and transparency.
+
+- Multiple Rendered Components: The component renders various elements, including a search bar for querying movies, a featured movie section, a list of movies, and a Pagination component for easy navigation between pages.
+
+- Each movie component within the list includes a poster, name, and rating, offering users key information at a glance.
 
 
 
