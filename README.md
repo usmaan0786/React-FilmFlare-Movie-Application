@@ -2,7 +2,7 @@
 
 ## Abstract:
 
-🎬 Exciting News! 🚀 Just launched a React-based web application leveraging the power of The Movie Database (TMDB) API! 🍿
+🎬 Exciting News! 🚀 Just launched a React-based web application named leveraging the power of The Movie Database (TMDB) API! 🍿
 
 ### 🌟 Features:
 
