@@ -17,7 +17,7 @@ const Search = () => {
     <div className="flex items-center absolute top-4 ml-[37rem]">
       <input
         type="text"
-        className="border-[.1rem] w-[25rem] p-2 rounded-md focus:outline-none focus:border-[#161616] text-[#161616] text-[.9rem]"
+        className="border-[.1rem] w-[25rem] p-2 rounded-md focus:outline-none focus:border-[#ffffff] text-[#161616] text-[.9rem]"
         placeholder="Enter your text"
         onKeyDown={handleKeyPress}
         onChange={(e) => SetQuery(e.target.value)}

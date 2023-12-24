@@ -10,7 +10,6 @@ import PropTypes from "prop-types";
 import YouTube from "react-youtube";
 import { MdOutlineLocalMovies } from "react-icons/md";
 import Recomendations from "../components/Recomendations";
-import MovieTrailer from "../components/MovieTrailer";
 
 const MovieInformation = () => {
   const dispatch = useDispatch();
@@ -190,10 +189,6 @@ const MovieInformation = () => {
       <Recomendations id={id} />
     </>
   );
-};
-
-MovieTrailer.propTypes = {
-  data: PropTypes.object.isRequired,
 };
 
 export default MovieInformation;
