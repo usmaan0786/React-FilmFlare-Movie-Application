@@ -13,8 +13,6 @@ const Search = () => {
     }
   };
 
-  //   const {searchMovie} = useSelector( (state) => state.)
-
   return (
     <div className="flex items-center absolute top-4 ml-[37rem]">
       <input

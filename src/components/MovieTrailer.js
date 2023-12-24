@@ -21,12 +21,9 @@ const MovieTrailer = ({ data }) => {
 
   return (
     <div className="z-40">
-      <button onClick={handleClick}>Watch Trailer</button>
-
-      {open && (
+      <button>Watch Trailer</button>
         <div
-          className="fixed top-0 left-0 h-full w-full flex items-center justify-center bg-[#3b3b3bcc z-50 "
-          onClick={handleClick}
+          className="flex items-center justify-center"
         >
           {data.videos.results[0].key ? (
             <div className="relative">
@@ -40,7 +37,6 @@ const MovieTrailer = ({ data }) => {
             "Video Not Found"
           )}
         </div>
-      )}
     </div>
   );
 };

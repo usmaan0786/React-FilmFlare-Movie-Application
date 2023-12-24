@@ -14,20 +14,6 @@ const Actors = () => {
   const { data, isFetching, error } = useGetActorDetailsQuery(id);
   const { data: movies } = useGetMoviesByActorIdQuery(id, page);
 
-  console.log(movies)
-  console.log(data)
-
-  // if (!!data || !movies) {
-  //   return (
-  //     <h1>
-  //       No movies that match that variant
-  //       <br />
-  //       Please Search for Something else
-  //     </h1>
-  //   );
-  // }
-  
-
   if (isFetching) {
     return <h1>................Loading</h1>;
   }
@@ -39,9 +25,7 @@ const Actors = () => {
       </Link>
     );
   }
-  console.log("Actors Data = ", data);
-  console.log("Movies Data = ", movies);
-
+  
   return (
     <>
       <div className="flex m-4 font-poppins text-[#e9e9e9] mt-[3rem]">

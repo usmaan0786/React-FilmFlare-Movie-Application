@@ -6,7 +6,8 @@ import Star from "../components/Star";
 import { selectGenreOrCategory } from "../Features/CurrentGenresOrCategories";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { MdMovie } from "react-icons/md";
-
+import PropTypes from "prop-types";
+import YouTube from "react-youtube";
 import { MdOutlineLocalMovies } from "react-icons/md";
 import Recomendations from "../components/Recomendations";
 import MovieTrailer from "../components/MovieTrailer";
@@ -38,6 +39,15 @@ const MovieInformation = () => {
       </Link>
     );
   }
+
+  const options = {
+    height: "800",
+    width: "1200",
+    playerVars: {
+      autoplay: 1,
+      controls: 1,
+    },
+  };
 
   return (
     <>
@@ -120,7 +130,7 @@ const MovieInformation = () => {
               .slice(0, 6)}
           </div>
 
-          <div className="flex gap-x-4 py-5 text-[1.2rem] font-bold">
+          <div className="flex gap-x-4 py-5 text-[1.2rem] font-bold items-center justify-center">
             <a
               className="bg-[#353535cc] p-2 rounded-lg hover:scale-105 duration-100 hover:bg-[#797979cc]"
               href={data.homepage}
@@ -154,15 +164,36 @@ const MovieInformation = () => {
               <h1 className="flex items-center gap-x-2">
                 {" "}
                 <MdOutlineLocalMovies className="text-[1.5rem] text-[#ff5e5e]" />
-                <MovieTrailer data={data} />
+                <div className="z-40">
+                  <button onClick={ (event) => event.preventDefault()}>Watch Trailer</button>
+                </div>
               </h1>
             </a>
+
+            
           </div>
+          <div className="flex items-center justify-center">
+              {data.videos.results[0].key ? (
+                <div className="relative">
+                  <YouTube
+                    videoId={data.videos.results[0].key}
+                    options={options}
+                    id="video"
+                  />
+                </div>
+              ) : (
+                "Video Not Found"
+              )}
+            </div>
         </div>
       </div>
       <Recomendations id={id} />
     </>
   );
+};
+
+MovieTrailer.propTypes = {
+  data: PropTypes.object.isRequired,
 };
 
 export default MovieInformation;
